@@ -1,0 +1,22 @@
+<package>
+  <description brief="kinect_recorder">
+
+     kinect_recorder
+
+  </description>
+  <author>kanzhi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kinect_recorder</url>
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="message_filters"/>
+  <depend package="pcl_ros"/>
+  <depend package="pcl_conversions"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+
+</package>
+
+
