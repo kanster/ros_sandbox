@@ -1,0 +1,21 @@
+<package>
+  <description brief="PLAA">
+
+     PLAA
+
+  </description>
+  <author>kanzhi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/PLAA</url>
+  <depend package="roslib"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+  <depend package="sensor_msgs"/>
+  <depend package="message_filters"/>
+
+</package>
+
+
