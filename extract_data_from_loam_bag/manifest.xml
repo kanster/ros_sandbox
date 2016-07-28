@@ -1,0 +1,19 @@
+<package>
+  <description brief="extract_data_from_loam_bag">
+
+     extract_data_from_loam_bag
+
+  </description>
+  <author>kanzhi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/extract_data_from_loam_bag</url>
+  <depend package="roscpp"/>
+  <depend package="rosbag"/>
+  <depend package="message_filters"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+
+</package>
+
+
