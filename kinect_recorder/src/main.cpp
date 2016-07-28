@@ -93,6 +93,16 @@ void KinectRecorder::sensor_callback(const sensor_msgs::ImageConstPtr &rgb_image
   if ( k == 's' ) {
     std::string rgb_fn = dir_ + "/rgb_" + boost::lexical_cast<std::string>(count_) + ".png";
     std::string depth_fn = dir_ + "/depth_" + boost::lexical_cast<std::string>(count_) + ".png";
+//    cv::Mat u16_img;
+//    depth_image = 1000*depth_image;
+//    depth_image.convertTo(u16_img, CV_16UC1);
+//    for ( int y = 100; y < 110; ++ y ) {
+//      for ( int x = 100; x < 110; ++ x ) {
+//        std::cout << depth_image.at<float>(y, x) << " -> " << u16_img.at<unsigned short>(y, x) << "; ";
+//      }
+//      std::cout << std::endl;
+//    }
+//    getchar();
     cv::imwrite( rgb_fn, rgb_image );
     cv::imwrite( depth_fn, depth_image );
     ROS_INFO( "Save frame %d", count_ );
