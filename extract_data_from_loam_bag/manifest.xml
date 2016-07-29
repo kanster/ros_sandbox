@@ -10,6 +10,7 @@
   <url>http://ros.org/wiki/extract_data_from_loam_bag</url>
   <depend package="roscpp"/>
   <depend package="rosbag"/>
+  <depend package="pcl_ros"/>
   <depend package="message_filters"/>
   <depend package="sensor_msgs"/>
   <depend package="nav_msgs"/>
